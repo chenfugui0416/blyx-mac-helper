@@ -24,8 +24,8 @@ macOS 上的「百炼英雄」网页/H5 辅助工具：截窗识别 + 键鼠模�
 ## 源码启动
 
 ```bash
-git clone https://github.com/chenfugui0416/百炼英雄辅助.git
-cd 百炼英雄辅助
+git clone https://github.com/chenfugui0416/blyx-mac-helper.git
+cd blyx-mac-helper
 python3 -m pip install -r requirements.txt
 python3 main.py
 ```
