@@ -75,3 +75,12 @@ bash scripts/build_app.sh
 ## 合规
 
 仅供学习与自用研究。请遵守游戏服务条款与当地法律。作者不对滥用后果负责。
+
+## Windows 原版 exe
+
+仓库内附带 Windows 原版文件（对照用）：
+
+- [`windows/x_blyx_v1.58.exe`](windows/x_blyx_v1.58.exe)（约 51MB）
+
+仅在 Windows 可运行；Mac 请用本仓库源码。
+
