@@ -1,0 +1,7 @@
+opencv-python-headless>=4.8
+mss>=9.0
+numpy>=1.24
+pynput>=1.7
+pyobjc-framework-Quartz>=10.0
+pyobjc-framework-Cocoa>=10.0
+Pillow>=10.0

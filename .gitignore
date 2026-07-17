@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 本地配置与运行产物
+config.ini
+custom_script.txt
+error.log
+script.json
+debug/
+
+# 打包产物
+build/
+dist/
+*.app
+
+# 系统
+.DS_Store
+*.swp
+.idea/
+.vscode/

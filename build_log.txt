@@ -1,0 +1,147 @@
+[*] using /Users/wind/miniforge3/bin/python3
+Collecting pyinstaller
+  Downloading pyinstaller-6.21.0-py3-none-macosx_10_13_universal2.whl.metadata (8.5 kB)
+Requirement already satisfied: pillow in /Users/wind/miniforge3/lib/python3.13/site-packages (12.2.0)
+Collecting pillow
+  Downloading pillow-12.3.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Requirement already satisfied: opencv-python-headless in /Users/wind/miniforge3/lib/python3.13/site-packages (5.0.0.93)
+Requirement already satisfied: mss in /Users/wind/miniforge3/lib/python3.13/site-packages (10.2.0)
+Requirement already satisfied: pynput in /Users/wind/miniforge3/lib/python3.13/site-packages (1.8.2)
+Requirement already satisfied: pyobjc-framework-Quartz in /Users/wind/miniforge3/lib/python3.13/site-packages (12.2.1)
+Requirement already satisfied: pyobjc-framework-Cocoa in /Users/wind/miniforge3/lib/python3.13/site-packages (12.2.1)
+Collecting altgraph (from pyinstaller)
+  Downloading altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+Collecting macholib>=1.8 (from pyinstaller)
+  Downloading macholib-1.16.4-py2.py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: packaging>=22.0 in /Users/wind/miniforge3/lib/python3.13/site-packages (from pyinstaller) (26.2)
+Collecting pyinstaller-hooks-contrib>=2026.6 (from pyinstaller)
+  Downloading pyinstaller_hooks_contrib-2026.6-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: setuptools>=42.0.0 in /Users/wind/miniforge3/lib/python3.13/site-packages (from pyinstaller) (82.0.1)
+Requirement already satisfied: numpy>=2 in /Users/wind/miniforge3/lib/python3.13/site-packages (from opencv-python-headless) (2.5.1)
+Requirement already satisfied: six in /Users/wind/miniforge3/lib/python3.13/site-packages (from pynput) (1.17.0)
+Requirement already satisfied: pyobjc-framework-ApplicationServices>=8.0 in /Users/wind/miniforge3/lib/python3.13/site-packages (from pynput) (12.2.1)
+Requirement already satisfied: pyobjc-core>=12.2.1 in /Users/wind/miniforge3/lib/python3.13/site-packages (from pyobjc-framework-Quartz) (12.2.1)
+Requirement already satisfied: pyobjc-framework-CoreText>=12.2.1 in /Users/wind/miniforge3/lib/python3.13/site-packages (from pyobjc-framework-ApplicationServices>=8.0->pynput) (12.2.1)
+Downloading pyinstaller-6.21.0-py3-none-macosx_10_13_universal2.whl (1.1 MB)
+Downloading pillow-12.3.0-cp313-cp313-macosx_11_0_arm64.whl (4.8 MB)
+Downloading macholib-1.16.4-py2.py3-none-any.whl (38 kB)
+Downloading altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+Downloading pyinstaller_hooks_contrib-2026.6-py3-none-any.whl (457 kB)
+Installing collected packages: altgraph, pyinstaller-hooks-contrib, pillow, macholib, pyinstaller
+  Attempting uninstall: pillow
+    Found existing installation: pillow 12.2.0
+    Uninstalling pillow-12.2.0:
+      Successfully uninstalled pillow-12.2.0
+Successfully installed altgraph-0.17.5 macholib-1.16.4 pillow-12.3.0 pyinstaller-6.21.0 pyinstaller-hooks-contrib-2026.6
+95 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+95 INFO: Python: 3.13.13 (conda)
+104 INFO: Platform: macOS-26.5-arm64-arm-64bit-Mach-O
+104 INFO: Python environment: /Users/wind/miniforge3
+104 INFO: wrote /Users/wind/Desktop/注册机/百炼英雄/mac_port/百炼英雄Mac.spec
+181 INFO: UPX is available but is disabled on non-Windows due to known compatibility problems.
+4664 INFO: Module search paths (PYTHONPATH):
+['/Users/wind/Desktop/注册机/百炼英雄/mac_port',
+ '/Users/wind/miniforge3/lib/python313.zip',
+ '/Users/wind/miniforge3/lib/python3.13',
+ '/Users/wind/miniforge3/lib/python3.13/lib-dynload',
+ '/Users/wind/.local/lib/python3.13/site-packages',
+ '/Users/wind/miniforge3/lib/python3.13/site-packages',
+ '__editable__.codex_session_patcher-1.4.6.finder.__path_hook__',
+ '/Users/wind/miniforge3/lib/python3.13/site-packages/aeosa',
+ '/Users/wind/Desktop/注册机/百炼英雄/mac_port']
+4834 INFO: Appending 'datas' from .spec
+4835 INFO: checking Analysis
+4835 INFO: Building Analysis because Analysis-00.toc is non existent
+4835 INFO: Looking for Python shared library...
+4835 INFO: Using Python shared library: /Users/wind/miniforge3/lib/libpython3.13.dylib
+4835 INFO: Running Analysis Analysis-00.toc
+4835 INFO: Target bytecode optimization level: 0
+4836 INFO: Initializing module dependency graph...
+4836 INFO: Initializing module graph hook caches...
+4841 INFO: Analyzing modules for base_library.zip ...
+5199 INFO: Processing standard module hook 'hook-encodings.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+5585 INFO: Processing standard module hook 'hook-math.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+5715 INFO: Processing standard module hook 'hook-heapq.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+6239 INFO: Processing standard module hook 'hook-pickle.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+6879 INFO: Caching module dependency graph...
+6903 INFO: Analyzing /Users/wind/Desktop/注册机/百炼英雄/mac_port/main.py
+6922 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7009 INFO: Processing standard module hook 'hook-xml.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7149 INFO: Processing standard module hook 'hook-sysconfig.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7156 INFO: Processing standard module hook 'hook-_osx_support.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7158 INFO: Processing standard module hook 'hook-_ctypes.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7167 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks/pre_find_module_path'
+7167 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+7286 INFO: Processing standard module hook 'hook-_tkinter.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7311 INFO: Processing standard module hook 'hook-webbrowser.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7378 INFO: Processing standard module hook 'hook-cv2.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+7557 INFO: Processing standard module hook 'hook-numpy.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+7704 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks/pre_safe_import_module'
+7704 INFO: SetuptoolsInfo: initializing cached setuptools info...
+8322 INFO: Processing standard module hook 'hook-platform.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+9068 INFO: Processing standard module hook 'hook-difflib.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+9278 INFO: Processing standard module hook 'hook-psutil.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+9447 INFO: Processing standard module hook 'hook-charset_normalizer.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+9826 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+10413 INFO: Processing standard module hook 'hook-pynput.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+10668 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks/pre_safe_import_module'
+10732 INFO: Processing standard module hook 'hook-PIL.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+10785 INFO: Processing standard module hook 'hook-PIL.Image.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+11012 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+11129 INFO: Analyzing hidden import 'pynput.keyboard._darwin'
+11160 INFO: Analyzing hidden import 'pynput.mouse._darwin'
+11165 INFO: Processing module hooks (post-graph stage)...
+11244 INFO: Processing standard module hook 'hook-_tkinter.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+11380 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks'
+11434 INFO: Performing binary vs. data reclassification (383 entries)
+11475 INFO: Looking for ctypes DLLs
+11499 WARNING: Library libxcb-errors.so.0 required via ctypes not found
+11517 INFO: Analyzing run-time hooks ...
+11518 INFO: Including run-time hook 'pyi_rth_inspect.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks/rthooks'
+11527 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks/rthooks'
+11528 INFO: Including run-time hook 'pyi_rth__tkinter.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks/rthooks'
+11528 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from '/Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/hooks/rthooks'
+11536 INFO: Creating base_library.zip...
+11544 INFO: Looking for dynamic libraries
+11974 INFO: Warnings written to /Users/wind/Desktop/注册机/百炼英雄/mac_port/build/百炼英雄Mac/warn-百炼英雄Mac.txt
+11986 INFO: Graph cross-reference written to /Users/wind/Desktop/注册机/百炼英雄/mac_port/build/百炼英雄Mac/xref-百炼英雄Mac.html
+12097 INFO: checking PYZ
+12097 INFO: Building PYZ because PYZ-00.toc is non existent
+12097 INFO: Building PYZ (ZlibArchive) /Users/wind/Desktop/注册机/百炼英雄/mac_port/build/百炼英雄Mac/PYZ-00.pyz
+12449 INFO: Building PYZ (ZlibArchive) /Users/wind/Desktop/注册机/百炼英雄/mac_port/build/百炼英雄Mac/PYZ-00.pyz completed successfully.
+12453 INFO: EXE target arch: arm64
+12453 INFO: Code signing identity: None
+12453 INFO: checking PKG
+12453 INFO: Building PKG because PKG-00.toc is non existent
+12453 INFO: Building PKG (CArchive) 百炼英雄Mac.pkg
+12469 INFO: Building PKG (CArchive) 百炼英雄Mac.pkg completed successfully.
+12470 INFO: Bootloader /Users/wind/miniforge3/lib/python3.13/site-packages/PyInstaller/bootloader/Darwin-64bit/runw
+12470 INFO: checking EXE
+12470 INFO: Building EXE because EXE-00.toc is non existent
+12470 INFO: Building EXE from EXE-00.toc
+12470 INFO: Copying bootloader EXE to /Users/wind/Desktop/注册机/百炼英雄/mac_port/build/百炼英雄Mac/百炼英雄Mac
+12470 INFO: Converting EXE to target arch (arm64)
+12495 INFO: Removing signature(s) from EXE
+12507 INFO: Modifying Mach-O image UUID(s) in EXE
+12512 INFO: Appending PKG archive to EXE
+12522 INFO: Fixing EXE headers for code signing
+12524 INFO: Rewriting the executable's macOS SDK version (26.2.0) to match the SDK version of the Python library (11.0.0) in order to avoid inconsistent behavior and potential UI issues in the frozen application.
+12525 INFO: Re-signing the EXE
+12548 INFO: Building EXE from EXE-00.toc completed successfully.
+12551 INFO: checking COLLECT
+12551 INFO: Building COLLECT because COLLECT-00.toc is non existent
+12551 INFO: Building COLLECT COLLECT-00.toc
+19471 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+19478 INFO: checking BUNDLE
+19478 INFO: Building BUNDLE because BUNDLE-00.toc is non existent
+19478 INFO: Building BUNDLE BUNDLE-00.toc
+25391 INFO: Signing the BUNDLE...
+25404 WARNING: Error while signing the bundle: codesign command (['/usr/bin/codesign', '-s', '-', '--force', '--all-architectures', '--timestamp', '--deep', '/Users/wind/Desktop/注册机/百炼英雄/mac_port/dist/百炼英雄Mac.app']) failed with error code 1!
+output: /Users/wind/Desktop/注册机/百炼英雄/mac_port/dist/百炼英雄Mac.app: replacing existing signature
+/Users/wind/Desktop/注册机/百炼英雄/mac_port/dist/百炼英雄Mac.app: resource fork, Finder information, or similar detritus not allowed
+
+25404 WARNING: You will need to sign the bundle manually!
+25404 INFO: Building BUNDLE BUNDLE-00.toc completed successfully.
+25408 INFO: Build complete! The results are available in: /Users/wind/Desktop/注册机/百炼英雄/mac_port/dist
+[+] done: /Users/wind/Desktop/注册机/百炼英雄/mac_port/dist/百炼英雄Mac.app
+    首次运行若被拦：右键打开，并授予 屏幕录制/辅助功能 权限给该 App
